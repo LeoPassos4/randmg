@@ -14,22 +14,11 @@ using namespace std;
 void clearscr();
 bool movep(char a);
 
-int worldmap[100][200] = { //Map array
-    {2,2,2,2,2,2,2,2,2,2},
-    {2,1,1,1,1,1,1,1,1,2},
-    {2,1,1,1,1,1,1,1,1,2},
-    {2,1,1,1,1,1,1,1,1,2},
-    {2,1,1,1,1,1,1,1,1,2},
-    {2,2,2,2,2,1,1,1,1,2},
-    {2,1,1,1,3,1,1,1,1,2},
-    {2,1,1,1,2,1,1,1,1,2},
-    {2,1,1,1,2,1,1,1,1,2},
-    {2,2,2,2,2,2,2,2,2,2}
-};
+int worldmap[100][200] = {};//Map array
 
-short season[2] {0,2};
+short season[2] {0,2};//Seasons not finished yet.
 
-int maxshowx = 40,maxshowy = 30;
+int maxshowx = 40,maxshowy = 30;//Max map size generate
 //int maxshowx = 200,maxshowy = 60;
 
 void drawmap(player pl);
