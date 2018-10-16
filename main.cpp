@@ -44,7 +44,7 @@ int main() {
     cout << endl << endl << "press any key to start...";
     getch();
 
-    randwm(42);//Generate world with seed "42"
+    randwm(42);//Generate world with seed 42
 
     bool randplayerpos = true;
     while (randplayerpos)//Random player initial location
